@@ -8,7 +8,6 @@ function UpdateData() {
         url: Url,
         type: "GET",
         dataType: 'jsonp',
-        headers: headers,
         success: function (data) {
             console.log(data)
         }
