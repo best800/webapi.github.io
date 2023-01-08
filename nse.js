@@ -7,7 +7,7 @@ function UpdateData() {
     $.ajax({
         url: Url,
         type: "GET",
-        dataType: 'json',
+        dataType: 'jsonp',
         headers: headers,
         success: function (data) {
             console.log(data)
